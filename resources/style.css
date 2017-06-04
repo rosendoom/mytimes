@@ -16,10 +16,11 @@ header #logo {
   display: flex;
 }
 
-#nav-item {
+.nav #nav-item {
   display: inline-block;
   width: auto;
   height: auto;
   padding: 10px;
   margin: 10px;
+  justify-content: flex-end;
 }
