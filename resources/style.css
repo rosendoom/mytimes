@@ -31,3 +31,26 @@ nav span {
 nav span a {
   color: #000000;
 }
+
+.main-container {
+  display: flex;
+  border: 2px solid black
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+  border: 2px solid black
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+  border: 2px solid black
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+  border: 2px solid black
+}
