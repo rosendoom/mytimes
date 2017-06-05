@@ -9,6 +9,7 @@ header  {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 .myt-logo  {
   display: flex;
@@ -16,6 +17,7 @@ header  {
   flex-grow: 1;
   padding-left: 20px;
   padding-bottom: 10px;
+  border: 2px solid black;
 }
 
 #logo {
@@ -34,23 +36,59 @@ nav span a {
 
 .main-container {
   display: flex;
-  border: 2px solid black
+  border: 2px solid black;
+  z-index: 10;
 }
 
 .column.large {
   display: flex;
   width: 630px;
-  border: 2px solid black
+  border: 2px solid black;
 }
 
+#phish {
+  border: 2px solid black;
+}
+#phish p {
+  border: 1px solid black;
+}
+
+#orca {
+  border: 2px solid black;
+}
+
+#earth {
+  border: 2px solid black;
+}
+
+#burger {
+  border: 3px solid black;
+}
+#cameras {
+  border: 2px solid black;
+}
 .column.medium {
   display: flex;
   width: 300px;
-  border: 2px solid black
+  border: 2px solid black;
 }
 
+#fbi {
+  border: 3px solid black;
+}
+
+#cats {
+  border: 2px solid black;
+}
 .column.small {
   display: flex;
   width: 240px;
-  border: 2px solid black
+  border: 2px solid black;
+}
+
+#cookie {
+  border: 2px solid black;
+}
+#bites {
+  border: 2px solid black;
 }
