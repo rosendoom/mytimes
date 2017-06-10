@@ -10,6 +10,7 @@ header  {
   font-size: 14px;
   font-weight: bold;
   background-color: white;
+  margin: auto;
 }
 
 .myt-logo  {
@@ -46,11 +47,23 @@ nav span a {
   border: 2px solid black;
 }
 
+.pic-headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 #phish {
   border: 2px solid black;
 }
 #phish p {
   border: 1px solid black;
+}
+
+#phish .pic-headline{
+  background-image: url("images/tunaphish.png");
+  font-size: 40px;
 }
 
 #orca {
@@ -61,12 +74,21 @@ nav span a {
   border: 2px solid black;
 }
 
+#earth .pic-headline{
+  background-image: url("images/fall.png");
+}
+
 #burger {
   border: 3px solid black;
 }
 #cameras {
   border: 2px solid black;
 }
+
+#cameras .pic-headline{
+  background-image: url("images/cameraman.png")
+}
+
 .column.medium {
   display: flex;
   width: 300px;
@@ -88,6 +110,7 @@ nav span a {
 
 #cookie {
   border: 2px solid black;
+  background-image: url("images/cookie.png");
 }
 #bites {
   border: 2px solid black;
