@@ -1,16 +1,16 @@
 
 header  {
-  align-items: center;
-  display: flex;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  border-bottom: 1px solid black;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  background-color: white;
-  margin: auto;
+display: flex;
+align-items: center;
+position: fixed;
+z-index: 1;
+width: 100%;
+height: 80px;
+border-bottom: 1px solid black;
+background-color: white;
+font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
 }
 
 .myt-logo  {
@@ -19,7 +19,6 @@ header  {
   flex-grow: 1;
   padding-left: 20px;
   padding-bottom: 10px;
-  border: 2px solid black;
 }
 
 #logo {
@@ -38,80 +37,139 @@ nav span a {
 
 .main-container {
   display: flex;
-  border: 2px solid black;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
 .column.large {
   display: flex;
-  width: 630px;
-  border: 2px solid black;
+  flex-direction: column;
+  margin-right: 32px;
+  width: 630px
 }
 
 .pic-headline {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+    display: flex;
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
 
 #phish {
-  border: 2px solid black;
+  display: block;
+  width: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 #phish p {
-  border: 1px solid black;
+  display: block;
+  margin-top: 16px;
+  width: 630px;
+  height: 162px;
 }
 
 #phish .pic-headline{
   background-image: url("images/tunaphish.png");
+  width: 630px;
+  margin-top: 0;
   font-size: 40px;
+  text-align: left;
+}
+.stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
-#orca {
-  border: 2px solid black;
+.stories #orca {
+  display: flex;
+  flex-direction: column
+  width: 300px;
 }
 
 #earth {
   border: 2px solid black;
+  display: block;
+  flex-direction: row
+  height: 300px;
+  justify-content: center;
+  margin-top: 15px;
+  text-align: center;
 }
 
 #earth .pic-headline{
   background-image: url("images/fall.png");
+  text-align: center;
 }
 
-#burger {
-  border: 3px solid black;
+.stories #burger {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
+
 #cameras {
   border: 2px solid black;
+  display: block;
+  flex-direction: row;
+  height: 300px;
+  justify-content: normal;
+  margin-top: 15px;
+  text-align: center;
 }
 
 #cameras .pic-headline{
   background-image: url("images/cameraman.png")
+  text-align: center;
 }
 
 .column.medium {
-  display: flex;
-  width: 300px;
-  border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+    width: 300px;
 }
 
 #fbi {
-  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#fbi p {
+  display: block;
+  flex-direction: row;
 }
 
 #cats {
-  border: 2px solid black;
+  display: block;
+  flex-direction: column;
+  width: 300px;
+}
+
+#cats .pic-headline{
+  background-image: url("images/catceo.png");
+  disply: block;
+  flex-direction: row;
 }
 .column.small {
-  display: flex;
+display: flex;
   width: 240px;
-  border: 2px solid black;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 #cookie {
-  border: 2px solid black;
   background-image: url("images/cookie.png");
 }
 #bites {
-  border: 2px solid black;
+  display: block;
+  width: 240px;
 }
